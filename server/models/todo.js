@@ -16,6 +16,8 @@ var Todo = mongoose.model('Todo', {
     default: null
   }
 });
+
 module.exports = {
-  Todo: Todo
+  // Todo: Todo
+  Todo
 }
